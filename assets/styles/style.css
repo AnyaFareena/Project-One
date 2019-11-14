@@ -1,0 +1,163 @@
+.bg-dark{
+    text-align: center !important;
+    background-color: rgba(3, 8, 39, 0.972) !important;
+}
+body{
+    background-image: url("../../image/green_dust_scratch_@2X.png");
+    height: auto;
+}
+
+#about{
+    margin-left: 20px;
+}
+.text-center{
+    color: #008080;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-fluid{
+    height: 100%;
+}
+#about{
+    font-size: 15px;
+}
+a{
+    color: rgb(118, 153, 173);
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    transition: color .9s;
+   font-size: 20px;
+   color: rgb(38, 8, 46);
+ 
+}
+
+h1{
+    font-size: 64px ;
+
+}
+
+#comment{
+    width: 695px;
+    border: none;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    background-color: transparent;
+    color:  rgb(38, 8, 46);;
+}
+
+.footer ,.navbar-fixed-bottom  {
+    position: fixed;
+    bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgba(3, 8, 39, 0.972);
+    color: rgb(185, 165, 134);
+    text-align: center;
+    border-top: solid rgba(22, 39, 149, 0.972) 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    height: 50px;
+    width: 100%;
+ }
+ /* p{
+    word-wrap: break-word;
+ } */
+ #filtersubmit {
+   
+    color: #007bff;
+    background-color: rgb(20, 14, 82) !important;
+    cursor:pointer;
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+ }
+ 
+ .input-group{
+    padding-top: 20px;
+    width: 809px;
+    margin: auto;
+
+   
+}
+ #filter{
+     width: 700px;
+     height: 60px;
+     border:solid 1px #ccc;
+     border-radius: 15px 0px 0px 15px; 
+ }
+ #reason{
+     word-wrap: break-word;
+     border: solid 2px gray ;
+     color:  gray;
+     border-radius: 9px;
+     padding: 5px;
+     margin-right: 0px;
+ }
+ h3{
+     color:  #008080;
+     border: lightgrey 0px 0px 2px 0px solid;
+ 
+}
+#teamMembers{
+    padding-top: 15px;
+}
+.card{
+    background-color: transparent;
+    border: solid 2px gray;
+    border-radius: 9px;
+}
+#text{
+    margin-bottom: 20px;
+}
+#guardianApiBlock,  #newsApiBlock, #civicFeedBlock{
+    border: 1px solid gray;
+     margin: 10px;
+}
+ 
+
+/* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * * { background-color: rgba(255,0,0,.2); }
+* * * * * * * * { background-color: rgba(0,255,0,.2); }
+* * * * * * * * * { background-color: rgba(0,0,255,.2); }*/
+/* 
+#aFrameBox{
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+#apiSummary, #apiDaysCounter, #guardianApiLinks{
+  border: 1px solid grey;
+  margin: 10px;
+}
+
+
+
+#newsApiSummary, #newsApiDaysCounter, #newsApiLinks{
+    border: 1px solid grey;
+    margin: 10px;
+  }
+  
+#newsApiBlock{
+      border: 1px solid red;
+    margin: 10px;
+  }
+
+#civicFeedApiSummary, #civicFeedDaysCounter, #civicFeedLinks{
+    border: 1px solid grey;
+    margin: 10px;
+  }
+  
+#civicFeedBlock{
+      border: 1px solid red;
+    margin: 10px;
+  } */
